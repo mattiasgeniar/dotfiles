@@ -1,0 +1,2 @@
+# Use Keep-Alive from the client-side, every 30s
+ServerAliveInterval 30
