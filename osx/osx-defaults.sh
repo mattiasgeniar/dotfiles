@@ -422,6 +422,10 @@ defaults write com.twitter.twitter-mac ESCClosesComposeWindow -bool true
 # Hide the app in the background if it’s not the front-most window
 defaults write com.twitter.twitter-mac HideInBackground -bool true
 
+# Run the screensaver if we're in the bottom-left hot corner.
+defaults write com.apple.dock wvous-bl-corner -int 5
+defaults write com.apple.dock wvous-bl-modifier -int 0
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
