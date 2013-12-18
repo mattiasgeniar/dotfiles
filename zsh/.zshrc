@@ -14,22 +14,10 @@ ZSH_THEME="robbyrussell"
 # Set to this to use case-sensitive completion
 CASE_SENSITIVE="true"
 
-# Comment this out to disable weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment following line if you want to disable colors in ls
-# DISABLE_LS_COLORS="true"
-
-# Uncomment following line if you want to disable autosetting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment following line if you want red dots to be displayed while waiting for completion
-# COMPLETION_WAITING_DOTS="true"
-
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git macports osx vagrant phing git-flow rvm zsh-syntax-highlighting)
+plugins=(git vagrant phing git-flow rvm zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh_aliases
@@ -39,7 +27,6 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/opt
 unsetopt correct_all
 
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
-export RUBYLIB=$RUBYLIB:/Library/Ruby/Gems/1.8/gems/veewee-0.2.3/lib/:/Library/Ruby/Gems/1.8/gems/virtualbox-0.9.2/lib/
 
 function mtr {
   host=`ruby -ruri -e "puts (URI.parse('$1').host or '$1')"`
@@ -54,5 +41,3 @@ function ping_url {
 }
 
 export GREP_COLOR='1;37'
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
