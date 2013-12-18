@@ -1,0 +1,6 @@
+alias pubkey="cat ~/.ssh/id_rsa.pub ; cat ~/.ssh/id_rsa.pub | pbcopy"
+alias p='cd ~/Projects/'
+alias pp='cd ~/Projects/nucleus-puppet'
+alias g='git'
+alias s='subl'
+alias gs='git status'
