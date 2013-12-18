@@ -1,0 +1,14 @@
+[user]
+    name = Mattias Geniar
+    email = m@ttias.be
+[core]
+    editor = vim
+[color]
+    status = auto
+    branch = auto
+    diff = auto
+    interactive = auto
+    blame = auto
+    ui = auto
+[push]
+    default = matching
