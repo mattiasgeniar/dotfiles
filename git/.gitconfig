@@ -5,7 +5,7 @@
 [core]
     editor = vim
     excludesfile = ~/.gitignore
-    whitespace = space-before-tab,indent-with-non-tab,trailing-space
+    whitespace = space-before-tab,trailing-space
 
 [apply]
     # Detect whitespace errors when applying a patch
