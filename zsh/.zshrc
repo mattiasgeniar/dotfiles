@@ -41,3 +41,6 @@ function ping_url {
 }
 
 export GREP_COLOR='1;37'
+
+# Interpret the "enter" on the numpad as an actual enter
+bindkey -s "^[OM" "^M"
