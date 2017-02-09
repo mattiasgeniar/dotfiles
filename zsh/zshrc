@@ -44,7 +44,7 @@ export RUBYLIB=$RUBYLIB:/Library/Ruby/Gems/1.8/gems/veewee-0.2.3/lib/:/Library/R
 function mtr {
   host=`ruby -ruri -e "puts (URI.parse('$1').host or '$1')"`
   echo host: $host
-  /usr/local/Cellar/mtr/0.85/sbin/mtr -t $host
+  \mtr -t $host
 }
 
 function ping_url {
@@ -73,12 +73,17 @@ function sshn {
 }
 
 push() {
-  git pull && git commit . -m "$1" && git push && stash pull-request master -r master_repo -T "$1" > /dev/null 2>&1;
+  git pull
+  git commit . -m "$1"
+  git push
+  stash pull-request production -r master_repo -T "$1" > /dev/null 2>&1;
   echo "Pulled, commited, pushed and PR created. Yay!";
 }
 
 export GREP_COLOR='1;37'
 
+# Laravel & spark
+PATH=$PATH:~/Projects/laravel-projects/spark-installer
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Add the Java 1.8 binary
