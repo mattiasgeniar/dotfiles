@@ -80,6 +80,16 @@ push() {
   echo "Pulled, commited, pushed and PR created. Yay!";
 }
 
+home_get_ip ()
+{
+    \ssh nucmattias@ma.ttias.be "sudo grep 'ping-home-jumpbox' /var/www/vhosts/playground.ma.ttias.be/logs/access.log | tail -n 1 | awk '{print \$1}' "
+}
+
+home_build_tunnel ()
+{
+  ssh -p 9999 -L 13389:192.168.126.150:3389 mattias@$1
+}
+
 export GREP_COLOR='1;37'
 
 # Laravel & spark
