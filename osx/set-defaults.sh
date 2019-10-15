@@ -86,6 +86,9 @@ sudo systemsetup -settimezone "Europe/Brussels" > /dev/null
 # Save screenshots to the desktop
 defaults write com.apple.screencapture location -string "${HOME}/Desktop"
 
+# Hide the icons on the desktop
+defaults write com.apple.finder CreateDesktop false
+
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string "png"
 
