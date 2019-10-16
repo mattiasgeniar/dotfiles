@@ -1,18 +1,26 @@
-tap "caskroom/cask"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 brew "colordiff"
+brew "dnsmasq", restart_service: true
 brew "hostess"
 brew "htop"
+brew "imagemagick"
 brew "jq"
+brew "mysql@5.7", restart_service: true
+brew "nginx", restart_service: true
+brew "php", restart_service: true
+brew "pkg-config"
 brew "pssh"
 brew "pwgen"
 brew "telnet"
 brew "watch"
 brew "wget"
+brew "yarn"
 brew "youtube-dl"
 cask "font-fira-code"
 cask "font-source-code-pro"
+cask "iterm2"
+cask "virtualbox"
