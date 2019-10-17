@@ -9,6 +9,8 @@ brew "hostess"
 brew "htop"
 brew "imagemagick"
 brew "jq"
+brew "libdvdcss"
+brew "mysql-client"
 brew "mysql@5.7", restart_service: true
 brew "nginx", restart_service: true
 brew "php", restart_service: true
@@ -22,5 +24,9 @@ brew "yarn"
 brew "youtube-dl"
 cask "font-fira-code"
 cask "font-source-code-pro"
+cask "handbrake"
+cask "imageoptim"
 cask "iterm2"
+cask "macdown"
 cask "virtualbox"
+cask "visual-studio-code"
