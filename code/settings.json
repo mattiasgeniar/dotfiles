@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Material Theme",
+    "workbench.colorTheme": "Material Theme Lighter",
     "workbench.iconTheme": "eq-material-theme-icons-light",
     "window.zoomLevel": 1,
     "workbench.startupEditor": "newUntitledFile",
@@ -14,10 +14,12 @@
     "workbench.activityBar.visible": false,
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
-        "editor.formatOnSave": true
     },
     "editor.wordWrap": "on",
     "vsicons.dontShowNewVersionMessage": true,
     "php.suggest.basic": false,
-    "editor.quickSuggestions": { "comments": true },
+    "editor.quickSuggestions": {
+        "comments": true
+    },
+    "explorer.confirmDelete": false,
 }
