@@ -6,6 +6,10 @@ alias g='git'
 alias a='php artisan'
 alias pf='phpunit --filter'
 
+push() {
+  git commit . -m "$1" && git push
+}
+
 # Sysadmin shortcuts
 alias dig='dig +short +noshort'
 
