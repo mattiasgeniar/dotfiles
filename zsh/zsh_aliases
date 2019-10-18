@@ -1,6 +1,15 @@
+# SSH
 alias pubkey="cat ~/.ssh/id_rsa.pub ; cat ~/.ssh/id_rsa.pub | pbcopy"
-alias p='cd ~/Projects/'
+
+# Development shortcuts
 alias g='git'
-alias dig='dig +short +noshort'
-alias la='cd ~/Projects/laravel-projects/ohdear.app'
 alias a='php artisan'
+alias pf='phpunit --filter'
+
+# Sysadmin shortcuts
+alias dig='dig +short +noshort'
+
+# Directories
+alias la='cd /Users/mattias/Projects/Webdevelopment/ohdear.app'
+alias p='cd ~/Projects/'
+alias pr='cd ~/Projects/Repos'
