@@ -3,6 +3,8 @@ alias pubkey="cat ~/.ssh/id_rsa.pub ; cat ~/.ssh/id_rsa.pub | pbcopy"
 
 # Development shortcuts
 alias g='git'
+alias gs='git status'
+alias gp='git pull'
 alias a='php artisan'
 alias pf='phpunit --filter'
 
@@ -17,3 +19,4 @@ alias dig='dig +short +noshort'
 alias la='cd /Users/mattias/Projects/Webdevelopment/ohdear.app'
 alias p='cd ~/Projects/'
 alias pr='cd ~/Projects/Repos'
+alias pw='cd ~/Projects/Webdevelopment'
