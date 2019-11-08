@@ -104,3 +104,4 @@ source $HOME/.zsh_aliases
 export PATH=$PATH:~/.composer/vendor/bin
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+export PATH="$PATH:./vendor/bin"
