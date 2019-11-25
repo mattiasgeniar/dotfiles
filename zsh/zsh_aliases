@@ -6,6 +6,7 @@ alias g='git'
 alias gs='git status'
 alias gp='git pull'
 alias a='php artisan'
+alias pu='phpunit'
 alias pf='phpunit --filter'
 
 push() {
@@ -14,6 +15,7 @@ push() {
 
 # Sysadmin shortcuts
 alias dig='dig +short +noshort'
+alias headers='httpstat'
 
 # Directories
 alias la='cd /Users/mattias/Projects/Webdevelopment/ohdear.app'
