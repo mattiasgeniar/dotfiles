@@ -22,3 +22,6 @@ alias la='cd /Users/mattias/Projects/Webdevelopment/ohdear.app'
 alias p='cd ~/Projects/'
 alias pr='cd ~/Projects/Repos'
 alias pw='cd ~/Projects/Webdevelopment'
+
+# Make my life a bit easier
+alias ytdl='youtube-dl -o "S%(season_number)sE%(episode_number)s - %(episode)s.%(ext)s"'
