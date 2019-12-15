@@ -19,6 +19,7 @@ alias headers='httpstat'
 
 # Directories
 alias la='cd /Users/mattias/Projects/Webdevelopment/ohdear.app'
+alias ma='cd /Users/mattias/Projects/Webdevelopment/ma.ttias.be'
 alias p='cd ~/Projects/'
 alias pr='cd ~/Projects/Repos'
 alias pw='cd ~/Projects/Webdevelopment'
