@@ -6,8 +6,8 @@ alias g='git'
 alias gs='git status'
 alias gp='git pull'
 alias a='php artisan'
-alias pu='phpunit'
-alias pf='phpunit --filter'
+alias pu='phpunit --stop-on-failure'
+alias pf='phpunit --stop-on-failure --filter'
 
 push() {
   git commit . -m "$1" && git push
