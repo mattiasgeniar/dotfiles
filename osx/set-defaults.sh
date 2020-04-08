@@ -168,3 +168,6 @@ defaults write com.apple.SoftwareUpdate CriticalUpdateInstall -int 1
 
 # Turn on app auto-update
 defaults write com.apple.commerce AutoUpdate -bool true
+
+# Only show running aps in dock
+defaults write com.apple.dock static-only -bool true
