@@ -106,5 +106,6 @@ export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 export PATH="$PATH:./vendor/bin"
 export PATH=$PATH:~/go/bin
+export PATH=$PATH:/usr/local/anaconda3/bin
 
 export XDEBUG_CONFIG="idekey=VSCODE"
