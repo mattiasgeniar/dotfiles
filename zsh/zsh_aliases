@@ -11,7 +11,7 @@ alias pf='phpunit --stop-on-failure --filter'
 alias composer='php -d memory_limit=-1 /usr/local/bin/composer'
 
 push() {
-  git commit . -m "$1" && git push
+  git pull; git commit . -m "$1" && git push
 }
 
 # Sysadmin shortcuts
@@ -39,5 +39,15 @@ curltime() {
   time_starttransfer:  %{time_starttransfer}\n
                       ----------\n
           time_total:  %{time_total}\n
+          \n
+        size_request: %{size_request}b\n
+       size_download: %{size_download}b\n
+         size_header: %{size_header}b\n
+         \n
+      speed_download: %{speed_download}\n
+        speed_upload: %{speed_upload}\n
+         \n
+            httpCode: HTTP/%{http_code}\n
+              remote: %{remote_ip}:%{remote_port}\n
 EOF
 }
