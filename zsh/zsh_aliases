@@ -77,3 +77,7 @@ function opendb () {
    echo "Opening ${DB_URL}"
    open $DB_URL
 }
+
+arm() {
+  arch -x86_64 $@
+}
