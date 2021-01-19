@@ -1,13 +1,20 @@
 {
-    "workbench.colorTheme": "Material Theme Lighter",
-    "workbench.iconTheme": "eq-material-theme-icons-light",
-    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Visual Studio Light",
+    "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
-    "editor.lineHeight": 25,
+    "editor.lineHeight": 30,
     "editor.fontFamily": "Roboto Mono, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
     "editor.letterSpacing": 0.2,
-    "files.trimTrailingWhitespace": true,
+    "editor.fontLigatures": true,
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>-/?",
+
+
+    /**
+    * Remove unnecessary visual noise
+    **/
+    "workbench.editor.showTabs": false,
+    "workbench.sideBar.location": "right",
     "workbench.statusBar.visible": false,
     "explorer.openEditors.visible": 0,
     "editor.minimap.enabled": false,
@@ -16,10 +23,31 @@
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
     },
     "editor.wordWrap": "on",
-    "vsicons.dontShowNewVersionMessage": true,
     "php.suggest.basic": false,
     "editor.quickSuggestions": {
         "comments": true
     },
     "explorer.confirmDelete": false,
+    "search.useIgnoreFiles": false,
+    "grammarly.dialect": "british",
+    "grammarly.domain": "technical",
+    "debug.console.fontSize": 14,
+    "markdown.preview.fontSize": 16,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.letterSpacing": 2,
+    "terminal.integrated.lineHeight": 1.8,
+    "terminal.integrated.fontFamily": "Fira Mono for Powerline",
+    "intelephense.telemetry.enabled": false,
+    "php-cs-fixer.onsave": false,
+    "php-cs-fixer.rules": "@PSR2",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1611059856457,
+    "grammarly.autoActivate": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "terminal.external.linuxExec": "iTerm2",
+    "debug.console.fontFamily": "Fire Code",
+    "python.insidersChannel": "off"
 }
